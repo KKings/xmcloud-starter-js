@@ -19,3 +19,6 @@ WORKDIR C:\inetpub\wwwroot
 
 # Copy developer tools and entrypoint
 COPY --from=tools C:\tools C:\tools
+
+# Deploy SPE remoting configuration
+COPY SPERemoting.config C:\inetpub\wwwroot\App_Config\Include\zzz\SPERemoting.config

@@ -49,3 +49,9 @@ packages/
 
 # VS Code settings
 .vscode/
+/local-containers/license.xml
+devops/
+GitVersion.yml
+examples/
+**/.env
+/local-containers/*.env
