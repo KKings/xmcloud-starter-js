@@ -1,0 +1,38 @@
+{
+    "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "Project.Exxon",
+    "items": {
+        "includes": [
+            {
+                "name": "exxon.templates",
+                "path": "/sitecore/templates/Project/exxon",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "exxon.templates.branches",
+                "path": "/sitecore/templates/Branches/Project/exxon",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "exxon.modules",
+                "path": "/sitecore/system/settings/Project/exxon",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "exxon.renderings",
+                "path": "/sitecore/Layout/Renderings/Project/exxon",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "exxon.placeholderSettings",
+                "path": "/sitecore/Layout/Placeholder Settings/Project/exxon",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "exxon.content",
+                "path": "/sitecore/content/Exxon",
+                "allowedPushOperations": "CreateAndUpdate"
+            }
+        ]
+    }
+}
