@@ -1,12 +1,13 @@
 {
-  "//": "SCS module for the \"Headers\" datasource folder of a component whose data model aura inferred. Written by aura onto each component branch that needs it, identical on every branch. singleItem: only the folder is serialized, never the datasources inside it.",
+  "//": "SCS module for the \"Headers\" datasource folder of a component whose data model aura inferred. Written by aura onto each component branch that needs it, identical on every branch. ItemAndDescendants: the folder and the header datasources inside it are serialized.",
   "namespace": "Aura.Data.Headers",
+  "references": ["Project.Exxon"],
   "items": {
     "includes": [
       {
         "name": "Aura.Data.Headers",
         "path": "/sitecore/content/Exxon/ExxonMobil/Data/Headers",
-        "scope": "singleItem",
+        "scope": "ItemAndDescendants",
         "allowedPushOperations": "CreateAndUpdate"
       }
     ]

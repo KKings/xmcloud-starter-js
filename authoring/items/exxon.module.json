@@ -29,6 +29,54 @@
                 "allowedPushOperations": "CreateUpdateAndDelete"
             },
             {
+                "name": "exxon.content.site",
+                "path": "/sitecore/content/Exxon",
+                "scope": "SingleItem",
+                "allowedPushOperations": "CreateOnly"
+            },
+            {
+                "name": "exxon.content.site.exxonMobil",
+                "path": "/sitecore/content/Exxon/ExxonMobil",
+                "scope": "SingleItem",
+                "allowedPushOperations": "CreateOnly"
+            },
+            {
+                "name": "exxon.content.data",
+                "path": "/sitecore/content/Exxon/ExxonMobil/Data",
+                "scope": "SingleItem",
+                "allowedPushOperations": "CreateOnly"
+            },
+            {
+                "name": "exxon.content.dictionary",
+                "path": "/sitecore/content/Exxon/ExxonMobil/Dictionary",
+                "scope": "ItemAndDescendants",
+                "allowedPushOperations": "CreateOnly"
+            },
+            {
+                "name": "exxon.content.media",
+                "path": "/sitecore/content/Exxon/ExxonMobil/Media",
+                "scope": "ItemAndDescendants",
+                "allowedPushOperations": "CreateOnly"
+            },
+            {
+                "name": "exxon.content.presentation",
+                "path": "/sitecore/content/Exxon/ExxonMobil/Presentation",
+                "scope": "ItemAndDescendants",
+                "allowedPushOperations": "CreateOnly"
+            },
+            {
+                "name": "exxon.content.settings",
+                "path": "/sitecore/content/Exxon/ExxonMobil/Settings",
+                "scope": "ItemAndDescendants",
+                "allowedPushOperations": "CreateOnly"
+            },
+            {
+                "name": "exxon.mediaLibrary",
+                "path": "/sitecore/media library/Project/Exxon",
+                "scope": "ItemAndDescendants",
+                "allowedPushOperations": "CreateOnly"
+            },
+            {
                 "name": "exxon.content.home",
                 "path": "/sitecore/content/Exxon/ExxonMobil/Home",
                 "scope": "SingleItem",

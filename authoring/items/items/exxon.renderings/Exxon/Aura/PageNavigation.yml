@@ -1,4 +1,4 @@
----
+﻿---
 ID: "2a1a87ea-02fc-499b-b4ae-ae7083bf32ff"
 Parent: "2bfd7c22-18f4-4fe1-a466-080fba458483"
 Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
@@ -32,7 +32,7 @@ SharedFields:
     
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "87d63db7-332d-4e0e-90f6-411209eab4de"
+  Value: "8674d792-3560-4a64-a62e-d5a5c5e0ca7b"
 Languages:
 - Language: en
   Versions:
@@ -51,11 +51,11 @@ Languages:
         sitecore\kyle_kingsbury@epam.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9028b148-87bc-4ef1-bc45-55b96296ef3e"
+      Value: "4a185597-6aca-4dd2-8175-85a7d72a5a16"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\kyle_kingsbury@epam.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20261016T011736Z
+      Value: 20261016T150301Z

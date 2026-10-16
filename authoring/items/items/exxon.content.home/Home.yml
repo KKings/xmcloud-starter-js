@@ -9,6 +9,53 @@ SharedFields:
   Hint: __Thumbnail
   Value: |
     <image mediaid="{7723AAC0-BA60-4796-B4EA-218D52308DDC}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "dbbb7317-6eab-4a3f-af1c-6fe3ea2c3b0f"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{ED8426FD-E92E-49D9-A345-592A8B67CE44}"
+          p:before="*"
+          s:ds="{9352FDBD-BE1E-530A-A3FE-54ACC6517FCC}"
+          s:id="{9E224414-251F-4C1B-AB2B-7599EC71AB5E}"
+          s:par="CSSStyles"
+          s:ph="headless-header" />
+        <r
+          uid="{DBDEA4EE-6FCE-4B4D-AE97-9E2C2AFA5FF4}"
+          p:after="r[@uid='{ED8426FD-E92E-49D9-A345-592A8B67CE44}']"
+          s:ds=""
+          s:id="{2A1A87EA-02FC-499B-B4AE-AE7083BF32FF}"
+          s:par="CSSStyles"
+          s:ph="headless-header" />
+        <r
+          uid="{F43C8F3A-DBC8-4CC4-B798-D694FFD84241}"
+          p:after="r[@uid='{DBDEA4EE-6FCE-4B4D-AE97-9E2C2AFA5FF4}']"
+          s:ds="{90A31890-AFF7-5733-9D4D-7F2C6626842F}"
+          s:id="{1977BC1E-976A-48D7-AD3B-CF3F9271B395}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{F02852DC-97F4-4922-875D-4D3D29B42CA0}"
+          p:after="r[@uid='{F43C8F3A-DBC8-4CC4-B798-D694FFD84241}']"
+          s:ds=""
+          s:id="{0864F1C7-07A2-4F31-8716-1E3A0049E25B}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{2EFC3379-F5AF-4898-8BB1-9D4C5E4840E5}"
+          p:after="*[1=2]"
+          s:ds="{D1D454CD-E122-5AE6-90E9-528E732D5C27}"
+          s:id="{6704026E-460C-4A13-89EB-0A5014CFD515}"
+          s:par="CSSStyles"
+          s:ph="headless-footer" />
+      </d>
+    </r>
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{F558BEC9-C602-4D7A-B9A1-D0411C946EA4}"
@@ -19,7 +66,7 @@ Languages:
     Fields:
     - ID: "0f59b614-c374-4e74-80ed-f37107240e03"
       Hint: Title
-      Value: ExxonMobil
+      Value: Home
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20261015T235737Z
@@ -36,11 +83,23 @@ Languages:
         sitecore\kyle_kingsbury@epam.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f6c9f2fa-d8b1-4a2b-b7bb-88c7975a42a8"
+      Value: "f50f2422-17c1-4644-90b2-7f2e5a3a501f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\kyle_kingsbury@epam.com
+    - ID: "c03cd9e8-3774-44ed-a3b3-658437a4b754"
+      Hint: Content
+      Value: |
+        <ul role="list">
+            <li>Funding enables the global Red Cross network to deliver urgent humanitarian aid.</li>
+            <li>Red Cross assistance includes shelter, relief supplies, medical care, safe water, family reunification and recovery support.</li>
+        </ul>
+        <h3>Contribution to support earthquake relief</h3>
+        <p><span>SPRING, Texas&nbsp;&ndash; ExxonMobil today announced a $500,000 donation to the American Red Cross to support relief efforts following the June 2026 earthquakes in Venezuela.</span><br />
+        <span>The contribution will support the American Red Cross and its global Red Cross network as they provide critical assistance to communities impacted by the disaster. The organizations will use the funds to address urgent humanitarian needs and support recovery efforts where help is needed most.</span><br />
+        <span>&ldquo;Our thoughts are with the people and communities affected by the devastating earthquakes in Venezuela,&rdquo; said Alvin Abraham, global manager of corporate giving at ExxonMobil. &ldquo;Our contribution aims to help ensure affected communities receive the care and resources they need.&rdquo;</span><br />
+        <span>Donations to the American Red Cross designated for Venezuela earthquake relief efforts will provide a range of support services, including emergency shelter, relief supplies, cash assistance, health care, safe water and sanitation, psychosocial support, family reunification services, and other recovery assistance for people impacted by the earthquakes. ExxonMobil commends the first responders, volunteers, and community leaders working tirelessly on the ground to support relief efforts.</span></p>
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20261015T235745Z
+      Value: 20261016T152451Z

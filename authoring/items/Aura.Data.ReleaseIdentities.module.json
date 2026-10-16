@@ -1,6 +1,7 @@
 {
   "//": "SCS module for the \"ReleaseIdentities\" datasource folder of a component whose data model aura inferred. Written by aura onto each component branch that needs it, identical on every branch. singleItem: only the folder is serialized, never the datasources inside it.",
   "namespace": "Aura.Data.ReleaseIdentities",
+  "references": ["Project.Exxon"],
   "items": {
     "includes": [
       {

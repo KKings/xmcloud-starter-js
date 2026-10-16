@@ -1,4 +1,4 @@
----
+﻿---
 ID: "9e224414-251f-4c1b-ab2b-7599ec71ab5e"
 Parent: "2bfd7c22-18f4-4fe1-a466-080fba458483"
 Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
@@ -39,7 +39,7 @@ SharedFields:
   Value: "query:$site/*[@@name='Data']/*[@@name='Headers']"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "bb72c36f-2dc1-48b5-ab04-44c557e51b9e"
+  Value: "c76329c3-4859-477a-8d49-3f40d72e1034"
 Languages:
 - Language: en
   Fields:
@@ -62,11 +62,11 @@ Languages:
         sitecore\kyle_kingsbury@epam.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "50191bdb-245e-4579-a9fb-a1b66f53091a"
+      Value: "79ff2c56-4fd4-4c6b-ae16-63b4fcbf4817"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\kyle_kingsbury@epam.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20261016T011748Z
+      Value: 20261016T145848Z
