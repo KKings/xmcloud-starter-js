@@ -29,9 +29,46 @@
                 "allowedPushOperations": "CreateUpdateAndDelete"
             },
             {
-                "name": "exxon.content",
-                "path": "/sitecore/content/Exxon",
-                "allowedPushOperations": "CreateAndUpdate"
+                "name": "exxon.content.home",
+                "path": "/sitecore/content/Exxon/ExxonMobil/Home",
+                "scope": "SingleItem",
+                "allowedPushOperations": "CreateOnly"
+            },
+            {
+                "name": "exxon.content.data.images",
+                "path": "/sitecore/content/Exxon/ExxonMobil/Data/Images",
+                "scope": "ItemAndDescendants",
+                "allowedPushOperations": "CreateOnly"
+            },
+            {
+                "name": "exxon.content.data.linkLists",
+                "path": "/sitecore/content/Exxon/ExxonMobil/Data/Link Lists",
+                "scope": "ItemAndDescendants",
+                "allowedPushOperations": "CreateOnly"
+            },
+            {
+                "name": "exxon.content.data.navigationFilters",
+                "path": "/sitecore/content/Exxon/ExxonMobil/Data/Navigation Filters",
+                "scope": "ItemAndDescendants",
+                "allowedPushOperations": "CreateOnly"
+            },
+            {
+                "name": "exxon.content.data.promos",
+                "path": "/sitecore/content/Exxon/ExxonMobil/Data/Promos",
+                "scope": "ItemAndDescendants",
+                "allowedPushOperations": "CreateOnly"
+            },
+            {
+                "name": "exxon.content.data.tags",
+                "path": "/sitecore/content/Exxon/ExxonMobil/Data/Tags",
+                "scope": "ItemAndDescendants",
+                "allowedPushOperations": "CreateOnly"
+            },
+            {
+                "name": "exxon.content.data.texts",
+                "path": "/sitecore/content/Exxon/ExxonMobil/Data/Texts",
+                "scope": "ItemAndDescendants",
+                "allowedPushOperations": "CreateOnly"
             }
         ]
     }
